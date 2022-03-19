@@ -1,0 +1,136 @@
+/*@font-face {
+    font-family: "BrushScript";
+    src: url("../fonts/BrushScript.ttf") format("truetype");
+}*/
+
+.conteudo {
+  width: 72%;
+  background-color: rgb(247, 243, 250);
+  margin: 120px auto;  
+  padding: 50px;
+  border-radius: 10px;
+}
+
+/* {
+    color: rgb(248, 245, 245);
+   /* font-family: "BrushScript";
+    font-size: 26px;
+    line-height: 15px;
+}*/
+
+.background {  
+  background-image: url(img/cool-background.png);
+  background-attachment: fixed;  
+  padding: 2px; 
+    
+}
+
+.topo {
+  text-align: center;
+  color: yellow;
+}
+
+.topo img {
+    float: left;
+    width: 140px;
+    padding: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.cabecalho {
+  padding-top: 25px;
+  color: rgb(13, 14, 2);
+  text-align: center;
+  margin-right: 700px;
+}
+
+.inic {
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  width: 220px;
+  font-size: 1.2rem;
+  text-transform: uppercase; 
+
+}
+
+.navigation li a:link, 
+.navigation li a:visited {
+    color: gray;
+    text-decoration: none; 
+}
+
+.navigation li a:hover {
+    color: gray;
+    text-decoration: underline; 
+}
+
+.navigation li a:active {
+    color: gray;
+    text-decoration: underline; 
+}
+
+.fonte--media {
+  font-size: 1,7rem;
+}
+
+.img {
+  width: 280px;
+}
+
+.email {
+  color: rgb(212, 31, 31);
+}
+
+.medir label {
+  width: 150px;
+  display: inline-block; 
+  
+}
+
+.medir progress {
+  accent-color: #2e2d4c;
+
+}
+.figura img {
+  border-radius: 8px;
+  filter: grayscale(0.4);
+}
+
+.figura img:hover {
+  filter: none;
+}
+
+.btn-inicio {
+  font-size: 3rem;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.3;
+
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #312f2f;
+  color: #fff;
+  text-align: center;
+
+}

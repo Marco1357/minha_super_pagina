@@ -5,8 +5,8 @@
 
 .conteudo {
   width: 72%;
-  background-color: rgb(247, 243, 250);
-  margin: 120px auto;  
+  background-color: rgb(233, 233, 201);
+  margin: 120px auto;
   padding: 50px;
   border-radius: 10px;
 }
@@ -18,25 +18,23 @@
     line-height: 15px;
 }*/
 
-.background {  
+.background {
   background-image: url(img/cool-background.png);
-  background-attachment: fixed;  
-  padding: 2px; 
-    
+  background-attachment: fixed;
+  padding: 2px;
 }
 
 .topo {
+  margin-top: 8%;
   text-align: center;
-  color: yellow;
+  color: black;
 }
 
 .topo img {
-    float: left;
-    width: 140px;
-    padding: 20px;
-    margin-right: 20px;
-    
-
+  float: left;
+  width: 140px;
+  padding: 20px;
+  margin-right: 20px;
 }
 
 .cabecalho {
@@ -46,36 +44,37 @@
   margin-right: 700px;
 }
 
-.inic {
+.iniciar {
   text-align: center;
+  margin-top: 10%;
+  color: rgb(233, 233, 201);
 }
 
 .navigation li {
   display: inline-block;
   width: 220px;
   font-size: 1.2rem;
-  text-transform: uppercase; 
-
+  text-transform: uppercase;
 }
 
-.navigation li a:link, 
+.navigation li a:link,
 .navigation li a:visited {
-    color: gray;
-    text-decoration: none; 
+  color: gray;
+  text-decoration: none;
 }
 
 .navigation li a:hover {
-    color: gray;
-    text-decoration: underline; 
+  color: gray;
+  text-decoration: underline;
 }
 
 .navigation li a:active {
-    color: gray;
-    text-decoration: underline; 
+  color: gray;
+  text-decoration: underline;
 }
 
 .fonte--media {
-  font-size: 1,7rem;
+  font-size: 1, 7rem;
 }
 
 .img {
@@ -88,13 +87,11 @@
 
 .medir label {
   width: 150px;
-  display: inline-block; 
-  
+  display: inline-block;
 }
 
 .medir progress {
   accent-color: #2e2d4c;
-
 }
 .figura img {
   border-radius: 8px;
@@ -118,12 +115,10 @@
   bottom: 20px;
   right: 20px;
   opacity: 0.3;
-
 }
 
 .btn-inicio:hover {
   opacity: 1;
-
 }
 
 .footer {
@@ -132,5 +127,4 @@
   background-color: #312f2f;
   color: #fff;
   text-align: center;
-
 }

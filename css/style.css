@@ -10,6 +10,7 @@
   padding: 50px;
   border-radius: 10px;
   font-size: 20px;
+  color: black;
 }
 
 /* {
@@ -49,12 +50,13 @@
   color: rgb(13, 14, 2);
   text-align: center;
   margin-right: 700px;
+  font-size: 20px;
 }
 
 .iniciar {
   text-align: center;
   margin-top: 10%;
-  color: black;
+  color: rgb(206, 198, 198);
   font-size: 140%;
 }
 
@@ -132,12 +134,8 @@
 
 .footer {
   position: relative;
-  padding: 120px;
-  background-color: #312f2f;
+  padding: 80px;
+  background-color: #706e79;
   color: #fff;
   text-align: center;
-}
-
-.links {
-  color: #fff;
 }

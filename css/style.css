@@ -9,6 +9,7 @@
   margin: 120px auto;
   padding: 50px;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 /* {
@@ -25,16 +26,22 @@
 }
 
 .topo {
-  margin-top: 8%;
+  margin-top: 2%;
   text-align: center;
   color: black;
 }
 
 .topo img {
   float: left;
-  width: 140px;
-  padding: 20px;
-  margin-right: 20px;
+  width: 180px;
+  padding: 60px;
+  margin-right: 10px;
+  margin-top: 0.5%;
+}
+
+.titulo {
+  margin-top: 14%;
+  text-align: left;
 }
 
 .cabecalho {
@@ -47,7 +54,8 @@
 .iniciar {
   text-align: center;
   margin-top: 10%;
-  color: rgb(233, 233, 201);
+  color: black;
+  font-size: 140%;
 }
 
 .navigation li {
@@ -104,17 +112,18 @@
 
 .btn-inicio {
   font-size: 3rem;
-  color: #fff;
+  color: rgb(226, 225, 225);
   width: 60px;
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #fff;
+  background-color: rgb(223, 223, 219);
   border-radius: 50%;
   position: fixed;
   bottom: 20px;
   right: 20px;
   opacity: 0.3;
+  z-index: 1;
 }
 
 .btn-inicio:hover {
@@ -127,4 +136,8 @@
   background-color: #312f2f;
   color: #fff;
   text-align: center;
+}
+
+.links {
+  color: #fff;
 }

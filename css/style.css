@@ -2,7 +2,9 @@
     font-family: "BrushScript";
     src: url("../fonts/BrushScript.ttf") format("truetype");
 }*/
-
+html {
+  scroll-behavior: smooth;
+}
 .conteudo {
   width: 72%;
   background-color: rgb(233, 233, 201);
@@ -41,8 +43,9 @@
 }
 
 .titulo {
-  margin-top: 14%;
-  text-align: left;
+  margin-top: 18%;
+  font-size: 35px;
+  color: #000000;
 }
 
 .cabecalho {
@@ -62,8 +65,8 @@
 
 .navigation li {
   display: inline-block;
-  width: 220px;
-  font-size: 1.2rem;
+  width: 280px;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -138,4 +141,15 @@
   background-color: #706e79;
   color: #fff;
   text-align: center;
+}
+
+/* Mobile*/
+@media (max-width: 640px) {
+  .teste-azul {
+    color: blue;
+  }
+  .navigation li {
+    width: 10px;
+    font-size: 0.2rem;
+  }
 }

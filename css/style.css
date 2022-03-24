@@ -7,12 +7,12 @@ html {
 }
 .conteudo {
   width: 72%;
-  background-color: rgb(233, 233, 201);
+  background-color: #e9e9c9;
   margin: 120px auto;
   padding: 50px;
   border-radius: 10px;
   font-size: 20px;
-  color: black;
+  color: #000000;
 }
 
 /* {
@@ -31,7 +31,7 @@ html {
 .topo {
   margin-top: 2%;
   text-align: center;
-  color: black;
+  color: #000000;
 }
 
 .topo img {
@@ -50,7 +50,7 @@ html {
 
 .cabecalho {
   padding-top: 25px;
-  color: rgb(13, 14, 2);
+  color: #0d0e02;
   text-align: center;
   margin-right: 700px;
   font-size: 20px;
@@ -59,7 +59,7 @@ html {
 .iniciar {
   text-align: center;
   margin-top: 10%;
-  color: rgb(206, 198, 198);
+  color: #cec6c6;
   font-size: 140%;
 }
 
@@ -72,17 +72,17 @@ html {
 
 .navigation li a:link,
 .navigation li a:visited {
-  color: gray;
+  color: #808080;
   text-decoration: none;
 }
 
 .navigation li a:hover {
-  color: gray;
+  color: #808080;
   text-decoration: underline;
 }
 
 .navigation li a:active {
-  color: gray;
+  color: #808080;
   text-decoration: underline;
 }
 
@@ -95,7 +95,7 @@ html {
 }
 
 .email {
-  color: rgb(212, 31, 31);
+  color: #d41f1f;
 }
 
 .medir label {
@@ -103,9 +103,6 @@ html {
   display: inline-block;
 }
 
-.medir progress {
-  accent-color: #2e2d4c;
-}
 .figura img {
   border-radius: 8px;
   filter: grayscale(0.4);
@@ -117,12 +114,12 @@ html {
 
 .btn-inicio {
   font-size: 3rem;
-  color: rgb(226, 225, 225);
+  color: #e2e1e1;
   width: 60px;
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: rgb(223, 223, 219);
+  background-color: #dfdfdb;
   border-radius: 50%;
   position: fixed;
   bottom: 20px;
@@ -146,7 +143,7 @@ html {
 /* Mobile*/
 @media (max-width: 640px) {
   .teste-azul {
-    color: blue;
+    color: #0000ff;
   }
   .navigation li {
     width: 10px;

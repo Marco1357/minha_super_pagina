@@ -56,6 +56,13 @@ html {
   font-size: 20px;
 }
 
+.cabecalhos {
+  padding-top: 20px;
+  color: #0d0e02;
+  text-align: center;
+  margin-right: 700px;
+  font-size: 20px;
+}
 .iniciar {
   text-align: center;
   margin-top: 10%;
@@ -153,12 +160,12 @@ html {
   }
 
 /* Mobile*/
-@media (max-width: 640px) {
-  .teste-azul {
-    color: #0000ff;
+@media (max-width: 720px) { 
+  
+  .navigation li {    
+    width: 130px;
+    font-size: 1.1rem;
+    
   }
-  .navigation li {
-    width: 10px;
-    font-size: 0.2rem;
-  }
-}
+
+} 

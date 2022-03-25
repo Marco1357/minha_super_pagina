@@ -100,7 +100,11 @@ html {
 
 .medir label {
   width: 150px;
-  display: inline-block;
+  display: inline-block;  
+}
+
+.medir progress {
+  accent-color:  #808080;
 }
 
 .figura img {
@@ -128,6 +132,10 @@ html {
   z-index: 1;
 }
 
+.btn-inicio a {
+  color: #808080;
+}
+
 .btn-inicio:hover {
   opacity: 1;
 }
@@ -138,7 +146,11 @@ html {
   background-color: #706e79;
   color: #fff;
   text-align: center;
-}
+  }
+
+  .footer a {
+    color: #fff;
+  }
 
 /* Mobile*/
 @media (max-width: 640px) {

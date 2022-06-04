@@ -72,7 +72,7 @@ html {
 
 .navigation li {
   display: inline-block;
-  width: 280px;
+  width: 210px;
   font-size: 1rem;
   text-transform: uppercase;
 }
@@ -163,9 +163,8 @@ html {
 @media (max-width: 720px) { 
   
   .navigation li {    
-    width: 130px;
-    font-size: 1.1rem;
-    
-  }
+    width: 180px;
+    font-size: 5px;    
+  }  
 
 } 
